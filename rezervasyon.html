@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Rezervasyon</title>
+</head>
+<body>
+    
+    <table width="100%" border="1">
+        <tr>
+            <td><a href="index.html">Ana Sayfa</a></td>
+            <td><a href="yurtlar.html">Yurtlar</a></td>
+            <td><a href="oteller.html">Oteller</a></td>
+            <td><a href="fiyatlar.html">Fiyatlar</a></td>
+            <td><a href="ulasim.html">Ulaşım</a></td>
+            <td><a href="rezervasyon.html">Rezervasyon</a></td>
+            <td><a href="iletisim.html">İletişim</a></td>
+    </table>
+
+    <h2>ONLİNE REZERVASYON FORMU</h2>
+    <form action="tesekkur.html" method="get">
+        <table border="1" width="60%" cellpadding="10">
+            <tr>
+                <td width="30%"><b>Ad Soyad:</b></td>
+                <td><input type="text" name="ad" required size="30"></td>
+            </tr>
+            <tr>
+                <td><b>Telefon:</b></td>
+                <td><input type="tel" name="telefon" required size="30"></td>
+            </tr>
+            <tr>
+                <td><b>E-posta:</b></td>
+                <td><input type="email" name="email" size="30"></td>
+            </tr>
+            <tr>
+                <td><b>Konaklama Tipi:</b></td>
+                <td>
+                    <select name="konaklama_tipi" required>
+                        <option value="">Seçiniz</option>
+                        <option value="yurt">Yurt</option>
+                        <option value="otel">Otel</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Tercih Edilen Yurt/Otel:</b></td>
+                <td>
+                    <select name="yurt_otel" required>
+                        <option value="">Seçiniz</option>
+                        <option value="yurt_a">Yurt A</option>
+                        <option value="yurt_b">Yurt B</option>
+                        <option value="otel_x">Otel X</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Giriş Tarihi:</b></td>
+                <td><input type="date" name="giris_tarihi" required></td>
+            </tr>
+            <tr>
+                <td><b>Ek Hizmetler:</b></td>
+                <td>
+                    <input type="checkbox" name="hizmet" value="yemek"> Yemek<br>
+                    <input type="checkbox" name="hizmet" value="temizlik"> Temizlik<br>
+                    <input type="checkbox" name="hizmet" value="camasir"> Çamaşırhane
+                </td>
+            </tr>
+            <tr>
+                <td><b>Ek Notlar:</b></td>
+                <td><textarea name="notlar" rows="4" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Rezervasyonu Tamamla">
+                    <input type="reset" value="Formu Temizle">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <hr>
+    <p>Düzce Öğrenci Konaklama Rehberi</p>
+    
+</body>
+</html>

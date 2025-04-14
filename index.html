@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Düzce Öğrenci Konaklama Rehberi</title>
+</head>
+<body>
+    
+    <table width="100%" border="1">
+        <tr>
+            <td bgcolor="#2c3e50">
+                <font color="white"><h1>DÜZCE ÖĞRENCİ KONAKLAMA REHBERİ</h1></font>
+            </td>
+        </tr>
+    </table>
+    
+    
+    <table width="100%" border="1" cellpadding="10">
+        <tr>
+            <td><a href="index.html">Ana Sayfa</a></td>
+            <td><a href="yurtlar.html">Yurtlar</a></td>
+            <td><a href="oteller.html">Oteller</a></td>
+            <td><a href="fiyatlar.html">Fiyatlar</a></td>
+            <td><a href="ulasim.html">Ulaşım</a></td>
+            <td><a href="rezervasyon.html">Rezervasyon</a></td>
+            <td><a href="iletisim.html">İletişim</a></td>
+        </tr>
+    </table>
+
+    
+    <table width="100%">
+        <tr>
+            <td>
+                <img src="img/duzce1.jpg" alt="Düzce Haritası" usemap="#yurtmap" width="300">
+                <map name="yurtmap">
+                    <area shape="rect" coords="34,44,270,350" alt="Yurt Konuralp" href="yurtlar.html">
+                    <area shape="circle" coords="300,200,50" alt="Yurt Akçakoca" href="yurtlar.html">
+                </map>
+            </td>
+        </tr>
+    </table>
+
+    
+    <h2>HIZLI REZERVASYON</h2>
+    <form action="rezervasyon.html" method="get">
+        <table width="60%" border="1" cellpadding="8">
+            <tr>
+                <td width="30%">Ad Soyad:</td>
+                <td><input type="text" name="ad" required size="30"></td>
+            </tr>
+            <tr>
+                <td>Telefon:</td>
+                <td><input type="tel" name="telefon" required size="30"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Rezervasyon Yap">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    
+    <hr>
+    <p>Düzce Öğrenci Konaklama Rehberi</p>
+</body>
+</html>
